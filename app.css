@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.top {
+  border: 1px solid #e4e9ed;
+  box-shadow: 0px 0px 15px #e4e9ed;
+}
+img {
+  width: 100%;
+  height: 250px;
+}
+
+.top p {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+}
+
+.bottom {
+  border: 1px solid #e4e9ed;
+  box-shadow: 0px 0px 15px #e4e9ed;
+}
+
+.bottom h1 {
+  font-size: 2.5em;
+  margin: 5px 0;
+}
+
+.bottom p {
+  margin: 5px 0 25px 0;
+}
+
+.bottom label {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.bottom select {
+  font-size: 0.8em;
+  text-align: center;
+  width: 50px;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.card {
+  padding: 15px;
+}
+
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+button {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  gap: 2px;
+}
+
+#player1 {
+  background-color: #58ed9d;
+}
+
+#player2 {
+  background-color: #58a7ed;
+}
+#reset {
+  background-color: #d63924;
+  flex-grow: 3;
+}
+
+.green {
+  color: #27db45;
+}
+
+.red {
+  color: #db5a27;
+}
